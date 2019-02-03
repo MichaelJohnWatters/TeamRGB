@@ -1,0 +1,45 @@
+﻿body {
+}
+.list-box {
+    width: 300px;
+}
+.cart-box {
+    color: white;
+    margin: auto;
+    width: 600px;
+    padding: 20px 20px 20px 20px;
+    background-color: #333;
+    border-radius: 15px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 2px solid dodgerblue;
+}
+.btn {
+    width: 30%;
+    background: none;
+    border: 2px solid dodgerblue;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.btn-remove {
+    display:inline;
+    width: 30%;
+    background: none;
+    border: 2px solid dodgerblue;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 12px 0;
+    float:none;
+}
+    .btn-remove:hover {
+        background: dodgerblue;
+    }
+
+.btn:hover {
+    background: dodgerblue;
+}

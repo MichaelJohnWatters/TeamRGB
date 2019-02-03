@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/logitechHeadset.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Logitech</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Logitech headset</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/kingstonSSD.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=SSD</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>SSD Kingston</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/razerHeadset.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=razer</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Razer headset</Keyword>
+  </Ad>
+</Advertisements>
+

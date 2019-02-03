@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/master.css" rel="stylesheet" />
+    <!-- burger icon for responsive website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" language="javascript">
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function toggle() {
+            var item = document.getElementById("myTopnav");
+            if (item.className === "topnav") {
+                item.className += " responsive";
+            } else {
+                item.className = "topnav";
+            }
+        }
+        /*
+           Prompts the user that they have logged out
+       */
+        function logoutMessage() {
+            alert("You Have logged out!");
+        }
+        /*
+            Prompts asking them if they want to empty their basket.
+        */
+        function areyousure() {
+            var reply = confirm("Empty basket contents... Are you sure?");
+            return reply;
+        }
+        /*
+            Prompts the user asking them if the want to purchase the displayed items.
+        */
+        function areyousurePurchase() {
+            var reply = confirm("Are you sure you want to Purchase these items?");
+            return reply;
+        }
+        /*
+            Prompts the user asking them if they are sure they want to logout.
+        */
+        function areyousureLogout() {
+            var reply = confirm("Are you sure you want to Logout?");
+            return reply;
+        }
+        /*
+            Prompts the user asking them if they sure they want confirm purchase of the items.
+        */
+        function areyousurePayment() {
+            var reply = confirm("Are you sure you want to Confirm Purchase");
+            return reply;
+        }
+        /*
+            Prompts the user telling they that they have input the wrong data.
+        */
+        function invalidInput() {
+            alert("Invalid Input");
+        }
+        function logout() {
+            document.getElementById("btnLogin").click();
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <!-- navigation bar-->
+        <form id="form1" runat="server">
+
+            <div class="topnav" id="myTopnav">
+                <a href="../index.aspx" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="../shop.aspx"><i class="fas fa-shopping-cart"></i> Shop</a>
+                <a href="../blog.aspx"><i class="far fa-comment-alt"></i> Blog</a>
+                <a id="logout" onclick="logout()" href="javascript:void(0);">Logout <i class="fas fa-sign-out-alt"></i></a>
+                <a id="account" href="../secure/profile.aspx">
+                    <i class="fa fa-user"></i>
+                    <asp:Label ID="lblAccount" runat="server" Text="Login"></asp:Label></a>
+                <a id="track" href="../secure/trackOrders.aspx">
+                    <i class="fa fa-truck"></i>
+                    Track Orders</a>
+                <a id="shoppingCart" href="../secure/shoppingCart.aspx">
+                    <i class="fas fa-shopping-basket"></i>
+                    Cart
+                </a>
+                <a href="javascript:void(0);" class="icon" onclick="toggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- content placeholder-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- Footer -->
+            <footer class="hide">
+                <div class="container">
+                    <div class="footer-cols">
+                        <ul>
+                            <li>Pages</li>
+                            <li>
+                                <a href="../index.aspx">Home</a>
+                            </li>
+                            <li>
+                                <a href="../shop.aspx">Shop</a>
+                            </li>
+                            <li>
+                                <a href="../blog.aspx">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../login.aspx">Login</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Other Pages</li>
+                            <li>
+                                <a href="../secure/trackOrders.aspx">Track Orders</a>
+                            </li>
+                            <li>
+                                <a href="../secure/profile.aspx">Profile</a>
+                            </li>
+                            <li>
+                                <a href="../secure/shoppingCart.aspx">Cart</a>
+                            </li>
+                            <li>
+                                <a href="../createAccount.aspx">Create Account</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Links</li>
+                            <li>
+                                <a href="https://github.com/MichaelJohnWatters" target="_blank">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/michael-watters-b50437167/" target="_blank">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/MichaelJohnWatters" target="_blank">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/sprinkleslol/?hl=en" target="_blank">Instagram</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Contact</li>
+                            <li>
+                                <a href="mailto:teamrgb6@outlook.com" target="_blank">Email: TeamRGB6@outlook.com</a>
+                            </li>
+                            <li>Mobile: 02890000000
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer bottom -->
+                <div class="footer-bottom text-center">
+                    <asp:Button Width="0px" Height="0" BorderStyle="None" BorderWidth="0" ID="btnLogin" runat="server" Text="" OnClientClick="logoutMessage();" OnClick="btnLogin_Click" TabIndex="10" />
+                    Team RGB 2019, Michael Watters, Lukas Aud, Jude Maguire
+                </div>
+            </footer>
+            <!-- Social Media bar-->
+            <div class="fixed-social-media">
+                <a href="https://github.com/MichaelJohnWatters" target="_blank" class="floating-button" id="fixed-github"></a>
+                <a href="https://www.linkedin.com/in/michael-watters-b50437167/" target="_blank" class="floating-button" id="fixed-linkedin"></a>
+                <a href="https://www.facebook.com/MichaelJohnWatters" target="_blank" class="floating-button" id="fixed-facebook"></a>
+                <a href="mailto:mjwatters@outlook.com" class="floating-button" id="fixed-email"></a>
+                <a href="https://www.instagram.com/sprinkleslol/?hl=en" target="_blank" class="floating-button" id="fixed-instagram"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

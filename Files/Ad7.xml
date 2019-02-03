@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/caseRgb.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=RGB Case</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>RGB Case</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/logitechMouse.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Logitech</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Logitech Mouse</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/logitechKeyboard.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Logitech</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Logitech keyboard</Keyword>
+  </Ad>
+</Advertisements>
+

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/rgbRamTrident.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=ram</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword></Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/amd2900x.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Amd</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Amd</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/liquidCooler.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Cooler</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Cooler</Keyword>
+  </Ad>
+</Advertisements>
+

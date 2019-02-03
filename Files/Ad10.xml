@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/starCitizen.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Star Citizen</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Star Citizen</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/EscapeFromTarkov.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Tarkov</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Tarkov</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/cod.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Call of Duty</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Call of Duty Black Ops</Keyword>
+  </Ad>
+</Advertisements>
+

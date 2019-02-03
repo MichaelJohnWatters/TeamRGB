@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/kingstonHDD.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=HDD</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>HDD kingston</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/razerPhone.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Razer</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Razer phone</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/reddragonMouseMat.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Red Dragon</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Red Dragon Mouse Mat</Keyword>
+  </Ad>
+</Advertisements>
+

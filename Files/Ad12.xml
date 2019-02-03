@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/bf5.png</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Battlefield</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Battlefield V</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/ets2.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Euro</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Euro Truck Simulator</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/overwatch.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=OverWatch</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>OverWatch</Keyword>
+  </Ad>
+</Advertisements>
+

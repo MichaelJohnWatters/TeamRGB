@@ -1,0 +1,162 @@
+﻿body {
+}
+/*Product*/
+.product {
+    display: inline-block;
+    border: 2px solid;
+    background-color: blue;
+    width: 30vh;
+    height: 40vh;
+    margin: 1vh;
+}
+    .product:hover {
+        border-color:dodgerblue;
+    }
+
+.product-image {
+    background-color: red;
+}
+
+.product-text {
+    text-align: left;
+    padding: 2rem;
+}
+/*Categories Section*/
+.offers {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    border: solid 2px;
+    width: 42vh;
+    height: 30vh;
+}
+    .offers:hover {
+        border-color:dodgerblue;
+    }
+    .offers h3 {
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        float: left;
+        padding-left: 1vh;
+    }
+
+#offer1 {
+    background: url('/Images/rtx.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#offer2 {
+    background: url('/Images/ps4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#offer3 {
+    background: url('/Images/xbox.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#offer4 {
+    background: url('/Images/redDead.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-1 {
+    background: url('/Images/gtx2080TI.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-2 {
+    background: url('/Images/gtx770.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-3 {
+    background: url('/Images/psHeadset.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-4 {
+    background: url('/Images/xboxx.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-5 {
+    background: url('/Images/rgbRam.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-6 {
+    background: url('/Images/fifa.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-7 {
+    background: url('/Images/liquidCooler.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-8 {
+    background: url('/Images/caseRgb.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-9 {
+    background: url('/Images/towerCooler.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-10 {
+    background: url('/Images/amd2900x.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-11 {
+    background: url('/Images/amdRX560.png');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feat-12 {
+    background: url('/Images/rgbStrip.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lastViewedProduct {
+    position:relative;
+}

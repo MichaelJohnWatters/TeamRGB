@@ -1,0 +1,36 @@
+﻿body {
+}
+.shop-box {
+    border: 2px solid;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 2px solid dodgerblue;
+}
+.search-bar {
+    padding-bottom: 2vh;
+}
+.lblSearchBar {
+    font-size:large;
+}
+.txtSearchBar {
+    height:3vh;
+    width:38vh;
+    font-size:large;
+}
+.btnSearchButton {
+    height: 3.5vh;
+    width:10vh;
+    font-size: large;
+    border-radius: 2px;
+    border: none;
+}
+    .btnSearchButton:hover {
+        color:white;
+        background-color:dodgerblue;
+    }
+

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/towerCooler.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Cooler</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Cool Master Tower Cooler</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/gtx780ti.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=GTX780TI</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>GTX780TI</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/rgbRam.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Ram</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Vengence Ram</Keyword>
+  </Ad>
+</Advertisements>

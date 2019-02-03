@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/fifa.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=FIFA 2018</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>FIFA 2018</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/rdr.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Red Dead</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Red Dead Redemption 2</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/rgbStrip.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=RGB LED Strip</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>RGB LED Strip</Keyword>
+  </Ad>
+</Advertisements>

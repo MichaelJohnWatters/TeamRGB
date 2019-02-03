@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/ps4.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=PS4 Pro</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>PS4 Pro</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/psHeadset.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=PS4 HeadSet</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>PS4 HeadSet</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/xboxx.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=XBOX One X</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>XBOX One X</Keyword>
+  </Ad>
+</Advertisements>

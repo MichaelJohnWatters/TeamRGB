@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/xboxController.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=Xbox</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>Xbox Controller</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/iPhone.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=IPhone</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>IPhone X</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/fortnite.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=fortnite</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>fortnite</Keyword>
+  </Ad>
+</Advertisements>
+

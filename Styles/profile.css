@@ -1,0 +1,40 @@
+﻿body {
+    font-size: x-large;
+}
+.profile-box {
+    color: white;
+    margin: auto;
+    width: 80vh;
+    padding: 20px 20px 20px 20px;
+    background-color: #333;
+    border-radius: 15px;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 2px solid dodgerblue;
+}
+.profile-text-box {
+    width:30vh;
+    height:3.5vh;
+    font-size:large;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: dodgerblue;
+}
+.btn {
+    width: 200px;
+    background: none;
+    border: 2px solid dodgerblue;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.read-only {
+    color:dodgerblue;
+}
+
+    .btn:hover {
+        background: dodgerblue;
+    }

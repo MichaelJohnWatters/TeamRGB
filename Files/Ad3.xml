@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/redgtx770.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=GTX 770TI</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>GTX 770TI</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/gtx770.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=GTX 770</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>GTX 770</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/images/gtx1050.jpg</ImageUrl>
+    <NavigateUrl>~/shop.aspx?search=GTX 1050</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>GTX 1050</Keyword>
+  </Ad>
+</Advertisements>
